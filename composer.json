@@ -1,0 +1,21 @@
+{
+    "name": "cannapress/util",
+    "description": "A library of support functions for wordpress post-type loading",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CannaPress\\Util\\PostTypes": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jeff-cannapress",
+            "email": "jeff@cannapress.tech"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0",
+        "psr/log": "^3.0"
+    }
+}
